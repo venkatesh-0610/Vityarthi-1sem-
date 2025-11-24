@@ -1,5 +1,3 @@
-
-
 n = int(input("Enter the last number to consider in the series: "))
 pos = int(input("Enter the digit position (1-based): "))
 
@@ -21,3 +19,4 @@ if found_number and pos <= len(series):
     print(f"The digit at position {pos} is part of number {found_number}.")
 else:
     print("Position out of range.")
+
